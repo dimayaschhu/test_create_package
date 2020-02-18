@@ -1,0 +1,17 @@
+{
+    "name": "dima/untitled",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dima",
+            "email": "yashchuk@rozetka.com.ua"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"text\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
